@@ -22,9 +22,13 @@
     padding: 15px;
 }
 
+body {
+    background-color: rgba(95, 158, 160, 0.507);
+}
+
 .header {
     text-align: center;
-    background-color: lightblue;
+    background-color: rgba(18, 30, 207, 0.829);
     color: white;
     margin-bottom: 10%;
     padding: 5%;
@@ -37,6 +41,7 @@ header nav p {
 .formulario {
     border: 1px blue;
     border-style: solid;
+    padding: 5%;
 }
 
 .form {
