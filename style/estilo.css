@@ -8,7 +8,12 @@
 
 * {
     box-sizing: border-box;
+    
+}
+body{
     margin: 0%;
+    background-color: black;
+    color: white;
 }
 
 .row::after {
@@ -22,14 +27,61 @@
     padding: 15px;
 }
 
+.header{
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Bahnschrift Condensed;
+    font-size: 70px;
+}
+header p{
+    text-align: center;
+    font-size: 30px;
+}
+.header .menu{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 3%;
+    margin-top: 3%;
+    
+}
+a {
+    color: rgba(238, 14, 14, 0.856);
+}
+
+
+.personal,.text-index{
+    float: left;
+    margin-left: 4%;
+    margin-top: 3%;
+    text-align: justify;
+    
+    
+}
+.foto{
+    background-color: black;
+}
+.foto img{
+    margin-left: 15%;
+    width: 70%;
+    
+}
+.footer{
+    background-color: rgb(68, 58, 58);
+}
+
+
 
 
 /*celular*/
-
+@media only screen and (max-width: 480px){
 [class*="col-"] {
     width: 100%;
 }
-
+}
 @media only screen and (min-width: 481px) {
     .col-1 {
         width: 8.33%;
