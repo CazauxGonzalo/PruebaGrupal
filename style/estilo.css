@@ -65,6 +65,9 @@ h2 {
     background-color: blue;
     margin-top: 15%;
 }
+#email{
+    width: fit-content;
+}
 
 
 /*celular*/
