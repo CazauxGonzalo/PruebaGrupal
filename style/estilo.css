@@ -22,6 +22,55 @@
     padding: 15px;
 }
 
+<<<<<<< HEAD
+=======
+body {
+    background-color: rgba(95, 158, 160, 0.507);
+}
+
+.header {
+    text-align: center;
+    background-color: rgba(18, 30, 207, 0.829);
+    color: white;
+    margin-bottom: 10%;
+    padding: 5%;
+}
+
+header nav p {
+    margin-top: 10%;
+}
+
+.formulario {
+    border: 1px blue;
+    border-style: solid;
+    padding: 5%;
+}
+
+.form {
+    text-align: center;
+}
+
+.form input {
+    width: 80%;
+}
+
+.form button {
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.footer div {
+    background-color: blue;
+    margin-top: 15%;
+}
+#email{
+    width: fit-content;
+}
+>>>>>>> 450ed6356d5b22669431623ef2856374d6a70139
 
 
 /*celular*/

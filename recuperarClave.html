@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NamePage</title>
+    <title>Eco Wash/RecuperaClave</title>
     <link rel="stylesheet" href="style/estilo.css">
+    <script src="Javascript/js.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
     </header>
 
 
-    <form action="" class="col-12 formulario">
+    <form action="" class="col-12 formulario" onsubmit="alertRecupera()">
 
         <h2>Recuperar Contraseña</h2>
 
@@ -29,10 +30,10 @@
             <label for="email">Ingresa tu mail</label>
         </div>
         <div class="col-12 form">
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required placeholder="xxxxxxxxx@xxxx.com">
         </div>
         <div class="col-12 form">
-            <button type="button">Enviar</button>
+            <button type="submit">Enviar</button>
         </div>
 
     </form>
