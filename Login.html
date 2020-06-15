@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eco Wash-Login </title>
+    <script src="Javascript/js.js"></script>
 </head>
 
 <body>
@@ -26,16 +27,16 @@
     </header>
 
 
-    <form action="">
+    <form action="" onsubmit="mensAlert('entra')">
 
         <h2>Ingreso</h2>
 
-        <label for="email">Ingresa tu mail</label>
-        <input type="email" name="email" id="email" required placeholder="xxxxxxxxx@xxxx.com">
+        <label for="emailEntra">Ingresa tu mail</label>
+        <input type="email" name="email" id="emailEntra" required placeholder="xxxxxxxxx@xxxx.com">
         <label for="clave">Password</label>
         <input type="password" name="clave" id="clave" required placeholder="Ingresa tu clave">
 
-        <button type="submit">Entrar</button>
+        <button id = "entar" type="submit" >Entrar</button>
 
 
     </form>
