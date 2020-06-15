@@ -73,8 +73,44 @@ a {
     background-color: rgb(68, 58, 58);
 }
 
+/* Formularios */
+
+form {
+    width: 300px;
+    padding: 16px;
+    
+    margin: auto;
+    background-color: rgb(119, 11, 11);
+}
+
+form label {
+    width: 90px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input {
+    width: 230px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"]{
+    width: 90px;
+    margin-left: 30%;
+}
+
+form h3{
+    text-align: center;
+}
 
 
+
+/* Fin formularios */
 
 /*celular*/
 @media only screen and (max-width: 480px){
