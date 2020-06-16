@@ -93,6 +93,7 @@ header div p{
 .footer{
     background-color: rgb(68, 58, 58);
     height: 350px;
+    clear: both;
 }
 footer div p{
     font-size: 18px;
@@ -104,7 +105,7 @@ form {
     width: 300px;
     padding: 16px;    
     margin: auto;    
-    background-color: rgba(9, 47, 216, 0.473);    
+    background-color: rgb(147, 164, 236);    
     margin-bottom: 3% ;
     
 }
@@ -147,6 +148,9 @@ form h3{
 [class*="col-"] {
     width: 100%;
 }
+.logo{
+    text-align: center;
+}
 .footer{
     text-align: center;
     height: 460px;
@@ -164,6 +168,9 @@ form h3{
 
 @media only screen and (max-width: 768px)and (min-width: 481px){
     /* para tableta */
+    .logo{
+        text-align: center;
+    }
 
     .col-p-1 {
         width: 8.33%;
