@@ -3,7 +3,7 @@
 
     $("span").click(function () {
        
-        $("a").toggle();
+        $(".menulink").toggle();
     });
 
 });
