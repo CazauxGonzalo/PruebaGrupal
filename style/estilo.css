@@ -153,7 +153,7 @@ form h2{
 }
 .footer{
     text-align: center;
-    height: 460px;
+    height: 470px;
 }
 
 .text-index h3{
@@ -170,6 +170,10 @@ form h2{
     /* para tableta */
     .logo{
         text-align: center;
+    }
+    .footer{
+        
+        height: 470px;
     }
 
     .col-p-1 {
