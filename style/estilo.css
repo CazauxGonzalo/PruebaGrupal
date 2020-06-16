@@ -140,7 +140,16 @@ form h2{
 .empresa{
     float: left;
 }
-
+td, table,th{
+    border: solid black 1px;
+    margin-left: 38%;
+}
+.container h3 {
+    text-align: center;
+}
+button{
+    margin-left: 30%;
+}
 
 
 /*celular*/
@@ -163,6 +172,11 @@ form h2{
     margin-left: 0.2%;
 }
 
+td, table,th{
+    border: solid black 1px;
+    margin-left: 1%;
+}
+
 
 }
 
@@ -174,6 +188,14 @@ form h2{
     .footer{
         
         height: 470px;
+    }
+    .menu{
+        text-align: center;
+    }
+
+    td, table,th{
+        border: solid black 1px;
+        margin-left: 20%;
     }
 
     .col-p-1 {
