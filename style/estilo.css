@@ -41,9 +41,9 @@ header h1 {
     font-family: Bahnschrift Condensed;
     font-size: 40px;
 }
-header p{
+header div p{
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 .header .menu{
     text-align: center;
@@ -61,12 +61,23 @@ header p{
     font-size: 18px;
 }
 
+
 .personal,.text-index{
     float: left;
     margin-left: 4%;
-    margin-top: 3%;
+    margin-top: 1.5%;
     text-align: justify;
         
+}
+.personal h3{
+    text-align: center;
+}
+.equipo{
+    background-color: lightskyblue;
+}
+.equipo div h2{
+    text-align: center;    
+    margin-bottom: -3%;
 }
 .foto{
     background-color: black;
@@ -90,8 +101,9 @@ form {
     width: 300px;
     padding: 16px;    
     margin: auto;    
-    background-color: rgb(119, 11, 11);
+    background-color: rgba(9, 47, 216, 0.473);    
     margin-bottom: 3% ;
+    
 }
 
 form label {
@@ -125,13 +137,74 @@ form h3{
     float: left;
 }
 
+
+
 /*celular*/
 @media only screen and (max-width: 480px){
 [class*="col-"] {
     width: 100%;
 }
+.footer{
+    text-align: center;
+    height: 460px;
 }
-@media only screen and (min-width: 481px) {
+
+.text-index h3{
+    text-align: center;
+}
+.personal{
+    margin-left: 0.2%;
+}
+
+
+}
+
+@media only screen and (max-width: 768px)and (min-width: 481px){
+    /* para tableta */
+
+    .col-p-1 {
+        width: 8.33%;
+    }
+    .col-p-2 {
+        width: 16.66%;
+    }
+    .col-p-3 {
+        width: 25%;
+    }
+    .col-p-4 {
+        width: 33.33%;
+    }
+    .col-p-5 {
+        width: 41.66%;
+    }
+    .col-p-6 {
+        width: 50%;
+    }
+    .col-p-7 {
+        width: 58.33%;
+    }
+    .col-p-8 {
+        width: 66.66%;
+    }
+    .col-p-9 {
+        width: 75%;
+    }
+    .col-p-10 {
+        width: 83.33%;
+    }
+    .col-p-11 {
+        width: 91.66%;
+    }
+    .col-p-12 {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 769px){
+ /* para pc*/
+
     .col-1 {
         width: 8.33%;
     }
@@ -169,3 +242,4 @@ form h3{
         width: 100%;
     }
 }
+
