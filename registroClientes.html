@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrate</title>
     <link rel="stylesheet" href="style/estilo.css">
+    <script src="Javascript/js.js"></script>
 </head>
 
 <body>
@@ -27,19 +28,20 @@
 
 
     <div class="formulario-registro">
-        <form action="">
+        <form action="" onsubmit="mensAlert('ingreso')">
 
             <h3>Registro</h3>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre">
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido" id="apellido">
-        <label for="email">Email</label>
+        <label for="nombre" >Nombre</label>
+        <input type="text" minlength="3"  maxlength="15" name="nombre" id="nombre" required>
+        <label for="apellido" required>Apellido</label>
+        <input type="text"  minlength="3" maxlength="15" name="apellido" id="apellido">
+        <label for="email" required>Email</label>
         <input type="email" name="email" id="email">
         <label for="clave">Clave</label>
-        <input type="password" name="clave" id="clave">
+        <input type="password"  minlength="5" maxlength="5" name="clave" id="clave" required>
+       <input type="submit" >
 
-        <input type="submit">
+       
 
     </form>
     </div>
