@@ -10,6 +10,9 @@
     box-sizing: border-box;
     
 }
+.menulink{
+    display: none;
+}
 body{
     margin: 0%;
     background-color: black;
