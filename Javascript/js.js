@@ -1,3 +1,14 @@
+
+ $(document).ready(function () {
+
+    $("span").click(function () {
+       
+        $("a").toggle();
+    });
+
+});
+
+
 function mensAlert(dato){
    
     if(dato == "entra"){
